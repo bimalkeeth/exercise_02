@@ -1,0 +1,69 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name ="main1"
+path = "src/main.rs"
+
+[[bin]]
+name ="main2"
+path = "src/main2.rs"
+
+[[bin]]
+name ="main3"
+path = "src/main3.rs"
+
+[[bin]]
+name ="main4"
+path = "src/control_flow.rs"
+
+[[bin]]
+name ="main5"
+path = "src/ownership.rs"
+
+[[bin]]
+name ="main6"
+path = "src/structs_data.rs"
+
+[[bin]]
+name ="main7"
+path = "src/rectangles.rs"
+
+[[bin]]
+name ="main8"
+path = "src/enums.rs"
+
+[[bin]]
+name ="main9"
+path = "src/vectors.rs"
+
+[[bin]]
+name ="main10"
+path = "src/strings.rs"
+
+[[bin]]
+name ="main11"
+path = "src/errors.rs"
+
+[[bin]]
+name ="main12"
+path = "src/generics.rs"
+
+[[bin]]
+name ="main13"
+path = "src/generics2.rs"
+
+[[bin]]
+name ="main14"
+path = "src/generics3.rs"
+
+[[bin]]
+name ="main15"
+path = "src/testing.rs"
+
+[dependencies]
+rand = "0.8.5"
